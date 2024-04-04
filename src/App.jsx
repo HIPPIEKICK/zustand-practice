@@ -1,8 +1,14 @@
+import { Directions } from "./components/Directions"
+import { InformationalHeader } from "./components/InformationalHeader"
+import { NameInput } from "./components/NameInput"
+import "./App.css"
 
 export const App = () => {
   return (
-  <div>
-    Labyrinth Project 
-  </div>
-  );
-};
+    <>
+      <InformationalHeader />
+      <NameInput />
+      <Directions />
+    </>
+  )
+}
